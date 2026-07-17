@@ -1,0 +1,234 @@
+{
+  "report_metadata": {
+    "title": "Revenue Recovery & Win-Back Analysis",
+    "framework": "R.E.C.O.V.E.R.",
+    "generated": "2026-07-17",
+    "version": "1.0.0"
+  },
+  "aggregate_metrics": {
+    "total_clients_lost": 8,
+    "total_annual_value_lost": 662000,
+    "total_recoverable_annual_value": 265300.0,
+    "recovery_rate_pct": 40.1,
+    "average_recovery_score": 57.1,
+    "hot_leads": 2,
+    "warm_prospects": 2,
+    "lukewarm": 3,
+    "cold": 1
+  },
+  "loss_reason_breakdown": [
+    {
+      "reason": "Budget Cuts / Cost Reduction",
+      "count": 1,
+      "pct": 12.5
+    },
+    {
+      "reason": "Client Leadership Change",
+      "count": 1,
+      "pct": 12.5
+    },
+    {
+      "reason": "Reduced Strategic Priority",
+      "count": 1,
+      "pct": 12.5
+    },
+    {
+      "reason": "Switched to Competitor",
+      "count": 1,
+      "pct": 12.5
+    },
+    {
+      "reason": "Contract Expiry \u2014 No Renewal",
+      "count": 1,
+      "pct": 12.5
+    },
+    {
+      "reason": "Scope / Service Mismatch",
+      "count": 1,
+      "pct": 12.5
+    },
+    {
+      "reason": "Acquisition / Merger",
+      "count": 1,
+      "pct": 12.5
+    },
+    {
+      "reason": "Dissatisfaction with Quality",
+      "count": 1,
+      "pct": 12.5
+    }
+  ],
+  "clients": [
+    {
+      "name": "TechFlow SaaS",
+      "industry": "saas",
+      "service": "digital_marketing",
+      "reason": "budget_cuts",
+      "reason_label": "Budget Cuts / Cost Reduction",
+      "months_since_loss": 2,
+      "prior_annual_value": 120000,
+      "recovery_probability": 0.65,
+      "recovery_score": 89.0,
+      "recovery_tier": "Hot Lead",
+      "key_contacts": [
+        {
+          "name": "Sarah Chen",
+          "role": "VP Marketing",
+          "strength": "strong"
+        },
+        {
+          "name": "Mike Torres",
+          "role": "CEO",
+          "strength": "moderate"
+        }
+      ],
+      "estimated_recovery_value": 42900.0
+    },
+    {
+      "name": "Premier Consulting Group",
+      "industry": "consulting",
+      "service": "brand_strategy",
+      "reason": "leadership_change",
+      "reason_label": "Client Leadership Change",
+      "months_since_loss": 4,
+      "prior_annual_value": 85000,
+      "recovery_probability": 0.45,
+      "recovery_score": 48.0,
+      "recovery_tier": "Lukewarm",
+      "key_contacts": [
+        {
+          "name": "James Wilson",
+          "role": "New CEO",
+          "strength": "none"
+        }
+      ],
+      "estimated_recovery_value": 37300.0
+    },
+    {
+      "name": "GreenLeaf Nonprofit",
+      "industry": "nonprofit",
+      "service": "content_marketing",
+      "reason": "reduced_priority",
+      "reason_label": "Reduced Strategic Priority",
+      "months_since_loss": 8,
+      "prior_annual_value": 36000,
+      "recovery_probability": 0.3,
+      "recovery_score": 18.2,
+      "recovery_tier": "Cold Re-Engagement",
+      "key_contacts": [
+        {
+          "name": "Ana Rodriguez",
+          "role": "Development Director",
+          "strength": "moderate"
+        }
+      ],
+      "estimated_recovery_value": 15300.0
+    },
+    {
+      "name": "Coastal Realty Partners",
+      "industry": "realestate",
+      "service": "social_media",
+      "reason": "switched_competitor",
+      "reason_label": "Switched to Competitor",
+      "months_since_loss": 3,
+      "prior_annual_value": 48000,
+      "recovery_probability": 0.55,
+      "recovery_score": 60.6,
+      "recovery_tier": "Warm Prospect",
+      "key_contacts": [
+        {
+          "name": "David Kim",
+          "role": "Principal Broker",
+          "strength": "moderate"
+        }
+      ],
+      "estimated_recovery_value": 22800.0
+    },
+    {
+      "name": "MedCore Healthcare",
+      "industry": "healthcare",
+      "service": "ui_ux_design",
+      "reason": "contract_expiry_no_renewal",
+      "reason_label": "Contract Expiry \u2014 No Renewal",
+      "months_since_loss": 1,
+      "prior_annual_value": 96000,
+      "recovery_probability": 0.75,
+      "recovery_score": 100,
+      "recovery_tier": "Hot Lead",
+      "key_contacts": [
+        {
+          "name": "Dr. Lisa Park",
+          "role": "CMO",
+          "strength": "strong"
+        },
+        {
+          "name": "Tom Baker",
+          "role": "IT Director",
+          "strength": "strong"
+        }
+      ],
+      "estimated_recovery_value": 41000.0
+    },
+    {
+      "name": "BrightPath Education",
+      "industry": "education",
+      "service": "web_development",
+      "reason": "scope_mismatch",
+      "reason_label": "Scope / Service Mismatch",
+      "months_since_loss": 6,
+      "prior_annual_value": 55000,
+      "recovery_probability": 0.4,
+      "recovery_score": 38.0,
+      "recovery_tier": "Lukewarm",
+      "key_contacts": [
+        {
+          "name": "Rachel Adams",
+          "role": "Dean of Operations",
+          "strength": "moderate"
+        }
+      ],
+      "estimated_recovery_value": 24100.0
+    },
+    {
+      "name": "Nova Financial",
+      "industry": "finance",
+      "service": "crm_integration",
+      "reason": "acquisition_merger",
+      "reason_label": "Acquisition / Merger",
+      "months_since_loss": 5,
+      "prior_annual_value": 150000,
+      "recovery_probability": 0.35,
+      "recovery_score": 35.0,
+      "recovery_tier": "Lukewarm",
+      "key_contacts": [
+        {
+          "name": "Kevin Wright",
+          "role": "New COO",
+          "strength": "none"
+        }
+      ],
+      "estimated_recovery_value": 61900.0
+    },
+    {
+      "name": "StyleLab E-Commerce",
+      "industry": "ecommerce",
+      "service": "email_marketing",
+      "reason": "dissatisfaction_quality",
+      "reason_label": "Dissatisfaction with Quality",
+      "months_since_loss": 2,
+      "prior_annual_value": 72000,
+      "recovery_probability": 0.6,
+      "recovery_score": 68.4,
+      "recovery_tier": "Warm Prospect",
+      "key_contacts": [
+        {
+          "name": "Maya Patel",
+          "role": "Head of E-Commerce",
+          "strength": "weak"
+        }
+      ],
+      "estimated_recovery_value": 27500.0
+    }
+  ],
+  "recovery_framework": "R.E.C.O.V.E.R. \u2014 Research, Evaluate, Craft, Orchestrate, Verify, Execute, Retain"
+}

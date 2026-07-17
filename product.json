@@ -1,0 +1,41 @@
+{
+  "name": "AI Agency Revenue Recovery & Win-Back Automation Tool",
+  "version": "1.0.0",
+  "date": "2026-07-17",
+  "type": "CLI Tool",
+  "category": "Agency Operations / Client Retention / Revenue Recovery",
+  "framework": "R.E.C.O.V.E.R. — Research, Evaluate, Craft, Orchestrate, Verify, Execute, Retain",
+  "description": "Zero-dependency Python CLI tool for analyzing lost clients, scoring recovery potential, generating personalized win-back campaigns, and projecting revenue recovery. Covers 15 loss reasons, 15 industries, 15 service lines, with 3 win-back sequences per client duration tier.",
+  "features": [
+    "8-dimension recovery scoring engine (0-100)",
+    "4-tier prioritization system (Hot Lead / Warm Prospect / Lukewarm / Cold)",
+    "15 loss reason categories with 3 recovery strategies each (45 total strategies)",
+    "3 win-back sequences based on time since loss (1-30d, 30-90d, 90d+)",
+    "15 industries x 15 service lines",
+    "Revenue recovery projection with realism factors",
+    "Loss reason breakdown analysis",
+    "3 ready-to-use email templates (recent, mid, long-term)",
+    "8 sample client profiles",
+    "Interactive, batch, and single-generate modes",
+    "4 output formats (HTML/MD/CSV/JSON)",
+    "R.E.C.O.V.E.R. framework action plan"
+  ],
+  "price_standalone": 14,
+  "price_bundle": 37,
+  "price_agency": 97,
+  "bundle_savings": "36% off $58",
+  "output_formats": ["HTML", "Markdown", "CSV", "JSON"],
+  "dependencies": "None (stdlib only)",
+  "python_version": "3.8+",
+  "readme": "README.md",
+  "main_script": "ai_revenue_recovery.py",
+  "sample_outputs": [
+    "recovery_outputs/sample_clients_report.md",
+    "recovery_outputs/sample_clients_report.html",
+    "recovery_outputs/sample_clients_report.json",
+    "recovery_outputs/sample_clients_clients.csv"
+  ],
+  "landing_page": "index.html",
+  "github_pages_url": null,
+  "deployed": false
+}

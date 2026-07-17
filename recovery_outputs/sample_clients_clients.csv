@@ -1,0 +1,9 @@
+Client Name,Industry,Service,Loss Reason,Months Since Loss,Prior Annual Value,Recovery Score,Recovery Tier,Recoverable Value,Key Contacts
+MedCore Healthcare,healthcare,ui_ux_design,Contract Expiry — No Renewal,1,96000,100,Hot Lead,38200.0,Dr. Lisa Park (CMO); Tom Baker (IT Director)
+TechFlow SaaS,saas,digital_marketing,Budget Cuts / Cost Reduction,2,120000,89.0,Hot Lead,47900.0,Sarah Chen (VP Marketing); Mike Torres (CEO)
+StyleLab E-Commerce,ecommerce,email_marketing,Dissatisfaction with Quality,2,72000,68.4,Warm Prospect,23400.0,Maya Patel (Head of E-Commerce)
+Coastal Realty Partners,realestate,social_media,Switched to Competitor,3,48000,60.6,Warm Prospect,18300.0,David Kim (Principal Broker)
+Premier Consulting Group,consulting,brand_strategy,Client Leadership Change,4,85000,48.0,Lukewarm,33100.0,James Wilson (New CEO)
+BrightPath Education,education,web_development,Scope / Service Mismatch,6,55000,38.0,Lukewarm,19100.0,Rachel Adams (Dean of Operations)
+Nova Financial,finance,crm_integration,Acquisition / Merger,5,150000,35.0,Lukewarm,58000.0,Kevin Wright (New COO)
+GreenLeaf Nonprofit,nonprofit,content_marketing,Reduced Strategic Priority,8,36000,18.2,Cold Re-Engagement,12200.0,Ana Rodriguez (Development Director)

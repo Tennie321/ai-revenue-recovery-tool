@@ -1,0 +1,103 @@
+{
+  "clients": [
+    {
+      "name": "TechFlow SaaS",
+      "industry": "saas",
+      "service": "digital_marketing",
+      "loss_reason": "budget_cuts",
+      "months_since_loss": 2,
+      "annual_value": 120000,
+      "probability": 0.65,
+      "key_contacts": [
+        {"name": "Sarah Chen", "role": "VP Marketing", "strength": "strong"},
+        {"name": "Mike Torres", "role": "CEO", "strength": "moderate"}
+      ]
+    },
+    {
+      "name": "Premier Consulting Group",
+      "industry": "consulting",
+      "service": "brand_strategy",
+      "loss_reason": "leadership_change",
+      "months_since_loss": 4,
+      "annual_value": 85000,
+      "probability": 0.45,
+      "key_contacts": [
+        {"name": "James Wilson", "role": "New CEO", "strength": "none"}
+      ]
+    },
+    {
+      "name": "GreenLeaf Nonprofit",
+      "industry": "nonprofit",
+      "service": "content_marketing",
+      "loss_reason": "reduced_priority",
+      "months_since_loss": 8,
+      "annual_value": 36000,
+      "probability": 0.30,
+      "key_contacts": [
+        {"name": "Ana Rodriguez", "role": "Development Director", "strength": "moderate"}
+      ]
+    },
+    {
+      "name": "Coastal Realty Partners",
+      "industry": "realestate",
+      "service": "social_media",
+      "loss_reason": "switched_competitor",
+      "months_since_loss": 3,
+      "annual_value": 48000,
+      "probability": 0.55,
+      "key_contacts": [
+        {"name": "David Kim", "role": "Principal Broker", "strength": "moderate"}
+      ]
+    },
+    {
+      "name": "MedCore Healthcare",
+      "industry": "healthcare",
+      "service": "ui_ux_design",
+      "loss_reason": "contract_expiry_no_renewal",
+      "months_since_loss": 1,
+      "annual_value": 96000,
+      "probability": 0.75,
+      "key_contacts": [
+        {"name": "Dr. Lisa Park", "role": "CMO", "strength": "strong"},
+        {"name": "Tom Baker", "role": "IT Director", "strength": "strong"}
+      ]
+    },
+    {
+      "name": "BrightPath Education",
+      "industry": "education",
+      "service": "web_development",
+      "loss_reason": "scope_mismatch",
+      "months_since_loss": 6,
+      "annual_value": 55000,
+      "probability": 0.40,
+      "key_contacts": [
+        {"name": "Rachel Adams", "role": "Dean of Operations", "strength": "moderate"}
+      ]
+    },
+    {
+      "name": "Nova Financial",
+      "industry": "finance",
+      "service": "crm_integration",
+      "loss_reason": "acquisition_merger",
+      "months_since_loss": 5,
+      "annual_value": 150000,
+      "probability": 0.35,
+      "key_contacts": [
+        {"name": "Kevin Wright", "role": "New COO", "strength": "none"}
+      ]
+    },
+    {
+      "name": "StyleLab E-Commerce",
+      "industry": "ecommerce",
+      "service": "email_marketing",
+      "loss_reason": "dissatisfaction_quality",
+      "months_since_loss": 2,
+      "annual_value": 72000,
+      "probability": 0.60,
+      "key_contacts": [
+        {"name": "Maya Patel", "role": "Head of E-Commerce", "strength": "weak"}
+      ]
+    }
+  ],
+  "output_formats": ["md", "html", "csv", "json"]
+}
